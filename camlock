@@ -59,4 +59,4 @@ getgenv().silent = {
  }
  
 
- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/971e07c6d49e96e1387cba82cad22179.lua"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/24krio/10xbetter/main/Main"))()
