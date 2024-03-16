@@ -80,14 +80,21 @@ MainSection:NewButton("RESOLVER1", "resolver", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/gtwWh71m"))()
 end)
 
-MainSection:NewButton("AURA X", "as", function()
-	loadstring(game:HttpGet("https://github.com/24krio/10xbetter/raw/main/aurax"))()
+MainSection:NewButton("Skin changer", "DA HOOD", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Xudik92a"))()
 end)
+
+local Main = Window:NewTab("AURA X")
+local MainSection = Main:NewSection("ONLY AURA")
 
 MainSection:NewButton("AURA X CAM", "as", function()
 	loadstring(game:HttpGet("https://github.com/24krio/10xbetter/raw/main/camlock"))()
 end)
 
-MainSection:NewButton("Skin changer", "DA HOOD", function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/Xudik92a"))()
+MainSection:NewButton("AURA X", "as", function()
+	loadstring(game:HttpGet("https://github.com/24krio/10xbetter/raw/main/aurax"))()
+end)
+
+MainSection:NewButton("AURA X CAM", "as", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/24krio/10xbetter/main/aura%20x%20gui"))()
 end)
