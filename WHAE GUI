@@ -1,0 +1,93 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("CARTI HUB", "CARTI HUB")
+
+-- Main
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Carti")
+
+
+MainSection:NewButton("Carti silent", "Myaim", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tFUBwUFM", true))()
+end)
+
+MainSection:NewButton("Q tool", "asd", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/qtoolv3/main/qtoolv3", true))()
+end)
+
+MainSection:NewButton("Macro Tool", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/DtnfMqmy", true))()
+end)
+
+MainSection:NewButton("BONKA TRASH", "TRASH", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/z6jRXmet"))()
+end)
+
+MainSection:NewButton("E Tool", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/jCXbFUu8"))()
+end)
+
+local Main = Window:NewTab("Carti 2")
+local MainSection = Main:NewSection("WHAE")
+
+MainSection:NewButton("Macro", "V on/off M speed up, N speed down", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/mkpxMAnN"))()
+end)
+
+MainSection:NewButton("Keyboard", "Mobile", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+MainSection:NewButton("V tool", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/f76JcebN", true))()
+end)
+
+MainSection:NewButton("Camlock", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ajappvYk", true))()
+end)
+
+MainSection:NewButton("Hoodcustoms dot", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MKkcfdBD", true))()
+end)
+
+local Main = Window:NewTab("ANTI & JOSE")
+local MainSection = Main:NewSection("Carti")
+
+MainSection:NewButton("antilock1", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MWHvFA4i"))()
+end)
+
+MainSection:NewButton("antilock1 kill", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ANa8476b"))()
+end)
+
+MainSection:NewButton("Autoclick", "asd", function()
+	getgenv().key = "Hostile"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+end)
+
+MainSection:NewButton("JOSE", "keyjose", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/EmkTvr1v"))()
+end)
+
+local Main = Window:NewTab("Aura x / Resolver")
+local MainSection = Main:NewSection("FreeRio")
+
+MainSection:NewButton("Q TOOL", "asd", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/jW3hhTJQ"))()
+end)
+
+MainSection:NewButton("RESOLVER1", "resolver", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/gtwWh71m"))()
+end)
+
+MainSection:NewButton("AURA X", "as", function()
+	loadstring(game:HttpGet("https://github.com/24krio/10xbetter/raw/main/aurax"))()
+end)
+
+MainSection:NewButton("AURA X CAM", "as", function()
+	loadstring(game:HttpGet("https://github.com/24krio/10xbetter/raw/main/camlock"))()
+end)
+
+MainSection:NewButton("Skin changer", "DA HOOD", function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Xudik92a"))()
+end)
