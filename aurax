@@ -1,7 +1,7 @@
 getgenv().silent = {
     Settings = {
      Enabled = true,
-     AimPart = "HumanoidRootPart",
+     AimPart = "UpperTorso",
      Prediction = 0.13823,
      AutoPrediction = {
       Enabled = true,
@@ -28,7 +28,7 @@ getgenv().silent = {
     },
     FOV = {
      Enabled = false,
-     Size = 28,
+     Size = 32,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.1,
