@@ -2,7 +2,7 @@ getgenv().silent = {
     Settings = {
      Enabled = true,
      AimPart = "HumanoidRootPart",
-     Prediction = 0.13823,
+     Prediction = 0.13932423,
      AutoPrediction = {
       Enabled = true,
       Type = "Custom", -- Normal, Custom, Math
@@ -47,13 +47,13 @@ getgenv().silent = {
      AimPart = "HumanoidRootPart",
      AutoPrediction = true,
      Prediction = {
-      Horizontal = 0.152848,
-      Vertical = 0.135,
+      Horizontal = 0.1355465654243623478953465298374562439526378542365936529765295635279345975623798465,
+      Vertical = 0.13657629348756397482579853798567389425634897563459824376534782563485265347582643789563495372685365,
      },
-     Smoothness = 0.00816,
+     Smoothness = 0.516783957634534785658736537854785620843948642938765234856395632497684924627823946283746278364387429676,
      Shake = {
-      X = 0.0342,
-      Y = 0.0132,
+      X = 0.92542345897836589587436539576589365,
+      Y = 0.4313287394698534653975645,
      },
     },
  }
