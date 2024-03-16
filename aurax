@@ -35,7 +35,7 @@ getgenv().silent = {
      Color = Color3.fromRGB(255,255,255),
     },
     Checks = {
-     KO = false, --- removed for now
+     KO = true, --- removed for now
      Health = { --unlocks if below the set value.
       Enabled = true,
       Value = 5,
