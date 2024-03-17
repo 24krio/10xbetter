@@ -1,0 +1,123 @@
+getgenv().Settings = {
+    ["Silent"] = {
+        ["Enabled"] = true,
+        ["AimPart"] = "Head",
+        ["WallCheck"] = true,
+        ["Visualize"] = true,
+        ["Prediction"] = {
+           ["Horizontal"] = 0.13,
+           ["Vertical"] = 0.4,
+        },
+        ["AutoPrediction"] = {
+            ["Enabled"] = true,
+            ["Type"] = "Normal", --//Normal, Custom
+           ["ping_100"] = 0.1357,
+           ["ping_110"] = 0.1357,
+           ["ping_120"] = 0.15580,
+           ["ping_130"] = 0.15580,
+           ["ping_140"] = 0.1425543763,
+           ["ping_150"] = 0.1425543763,
+           ["ping_160"] = 0.1446576983263,
+           ["ping_170"] = 0.1446576983263,
+           ["ping_180"] = 0.147987915345448,
+           ["ping_190"] = 0.147987915345448,
+           ["ping_200"] = 0.15224234865,
+           ["ping_210"] = 0.15224234865,
+           ["ping_220"] = 0.281,
+           ["ping_230"] = 0.3,
+           ["ping_240"] = 0.341,
+           ["ping_250"] = 0.35,
+           ["ping_260"] = 0.36,
+           ["ping_270"] = 0.38,
+        },
+        ["Mode"] = "Namecall", --index,namecal
+    },
+    ["FOV"] = {
+        ["Enabled"] = true,
+        ["Size"] = 50,
+        ["Filled"] = false,
+        ["Thickness"] = 0.01,
+        ["Transparency"] = 0.1,
+        ["Color"] = Color3.fromRGB(255,255,255),
+    },
+    ["Camlock"] = {
+        ["Enabled"] = false,
+        ["AimPart"] = "Head",
+        ["Prediction"] = {
+           ["Horizontal"] = 0.134,
+           ["Vertical"] = 0.132,
+        },
+        ["Smoothness"] = 0.32,
+        ["AutoPrediction"] = {
+            ["Enabled"] = false,
+            ["Type"] = "Normal", --//Normal, Custom
+           ["ping_100"] = 0.1355,
+           ["ping_110"] = 0.1357,
+           ["ping40_50"] = 0.12313232,
+           ["ping50_60"] = 0.1332241241231,
+           ["ping60_70"] = 0.1344,
+           ["ping70_80"] = 0.134123,
+           ["ping80_90"] = 0.134719123,
+           ["ping90_100"] = 0.1355,
+           ["ping100_110"] = 0.1357,
+           ["ping110_120"] = 0.1437,
+           ["ping120_130"] = 0.1401,
+           ["ping130_140"] = 0.1437,
+           ["ping140_150"] = 0.153,
+           ["ping150_160"] = 0.1514,
+           ["ping160_170"] = 0.1663,
+           ["ping170_180"] = 0.1672,
+           ["ping180_190"] = 0.1848,
+           ["ping190_200"] = 0.1865,
+        },
+        ["Shake"] = {
+            ["X"] = 1.56,
+            ["Y"] = 0,
+            ["Z"] = 0, --dont touch
+        },
+    },
+    ["Misc"] = {
+        ["NoDelay"] = true,
+        ["AutoReload"] = false,
+        ["AutoAir"] = {
+            ["Enabled"] = true,
+            ["Interval"] = 0.5,
+        },
+        ["CMDS"] = { 
+            ["Enabled"] = false,
+            ["FOVPrefix"] = "B",
+            ["Prediction"] = "A",
+       },
+    },
+    ["Resolution"] = {
+        ["Value"] = 1,
+       },
+    ["Resolvers"] = {  --entirely not
+        ["Enabled"] = false,
+        ["AutoDetect"] = false,
+        ["Type"] = "Recalculator",
+    },
+    ["Visuals"] = {
+        ["Ambient"] = {
+            ["Enabled"] = false,
+            ["Color"] = Color3.fromRGB(4, 0, 255),
+        },
+        ["OutDoor Ambient"] = {
+            ["Enabled"] = false,
+            ["Color"] = Color3.fromRGB(4, 0, 255)
+        },
+        ["Fog Modifications"] = {
+            ["Enabled"] = false,
+            ["Color"] = Color3.fromRGB(4, 0, 255),
+            ["Start"] = 15,
+            ["End"] = 100 
+        },
+        ["ColorCorrection"] = { 
+            ["Enabled"] = false,
+            ["Brightness"] = 0,
+            ["Saturation"] = 5,
+            ["Contrast"] = 2,
+        },
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bobbbb-b/B/main/77_SJQ0ZC.lua"))()
