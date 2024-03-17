@@ -48,13 +48,13 @@ getgenv().silent = {
      AimPart = "HumanoidRootPart",
      AutoPrediction = true,
      Prediction = {
-      Horizontal = 0.14675421,
-      Vertical = 0.14675421,
+      Horizontal = 0.131,
+      Vertical = 0.131810,
      },
-     Smoothness = 0.93345555555555569734863579567583653785639536537653956398536573465348956395635873563,
+     Smoothness = 1.0,
      Shake = {
-      X = 0.0834,
-      Y = 0.08345,
+      X = 0.834,
+      Y = 0.8345,
      },
     },
  }
