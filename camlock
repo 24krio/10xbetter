@@ -49,12 +49,12 @@ getgenv().silent = {
      AutoPrediction = true,
      Prediction = {
       Horizontal = 0.131,
-      Vertical = 0.131810,
+      Vertical = 0.131,
      },
      Smoothness = 0.834985349834753489537,
      Shake = {
-      X = 0.834,
-      Y = 0.8345,
+      X = 0.1,
+      Y = 0.1,
      },
     },
  }
