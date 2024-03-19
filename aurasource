@@ -5,7 +5,7 @@ getgenv().Settings = {
         ["WallCheck"] = true,
         ["Visualize"] = true,
         ["Prediction"] = {
-           ["Horizontal"] = 0.13,
+           ["Horizontal"] = 0.158,
            ["Vertical"] = 0.4,
         },
         ["AutoPrediction"] = {
