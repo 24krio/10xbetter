@@ -1,4 +1,3 @@
-script_key="fSfXxZBSXrYmojEibovAioGdfxaqEyQK";
 getgenv().silent = {
     Settings = {
      Enabled = true,
