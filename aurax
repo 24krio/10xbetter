@@ -3,7 +3,7 @@ getgenv().silent = {
     Settings = {
      Enabled = true,
      AimPart = "Head",
-     Prediction = 0.12683002,
+     Prediction = 0.13683002,
      AutoPrediction = {
       Enabled = true,
       Type = "Normal", -- Normal, Custom, Math
@@ -29,7 +29,7 @@ getgenv().silent = {
     },
     FOV = {
      Enabled = false,
-     Size = 16.3,
+     Size = 30,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.1,
