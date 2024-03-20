@@ -48,13 +48,13 @@ getgenv().silent = {
      AimPart = "Head",
      AutoPrediction = true,
      Prediction = {
-      Horizontal = 0.131,
-      Vertical = 0.131,
+      Horizontal = 0.1238915416,
+      Vertical = 0.1238915416,
      },
-     Smoothness = 0.5349659736453794945978368453789644534985349834753489537,
+     Smoothness = 0.343,
      Shake = {
-      X = 1,
-      Y = 1,
+      X = 3,
+      Y = 3,
      },
     },
  }
