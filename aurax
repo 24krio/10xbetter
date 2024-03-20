@@ -28,7 +28,7 @@ getgenv().silent = {
      },
     },
     FOV = {
-     Enabled = false,
+     Enabled = true,
      Size = 30,
      Filled = false,
      Thickness = 0.01,
