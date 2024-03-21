@@ -28,8 +28,8 @@ getgenv().silent = {
      },
     },
     FOV = {
-     Enabled = false,
-     Size = 20.4,
+     Enabled = true,
+     Size = 14,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.1,
@@ -48,13 +48,13 @@ getgenv().silent = {
      AimPart = "Head",
      AutoPrediction = true,
      Prediction = {
-      Horizontal = 0.1179913418,
-      Vertical = 0.1179913418,
+      Horizontal = 0.138249,
+      Vertical = 0.138249,
      },
-     Smoothness = 0.133,
+     Smoothness = 0.122,
      Shake = {
-      X = 1.324,
-      Y = 1.244,
+      X = 1.56,
+      Y = 1.56,
      },
     },
  }
