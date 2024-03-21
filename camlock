@@ -53,8 +53,8 @@ getgenv().silent = {
      },
      Smoothness = 0.19833,
      Shake = {
-      X = 29,
-      Y = 28,
+      X = 39,
+      Y = 38,
      },
     },
  }
