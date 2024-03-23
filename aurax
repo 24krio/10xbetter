@@ -28,8 +28,8 @@ getgenv().silent = {
      },
     },
     FOV = {
-     Enabled = true,
-     Size = 11,
+     Enabled = false,
+     Size = 15,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.1,
@@ -44,20 +44,20 @@ getgenv().silent = {
      Wall = true,
     },
     Camlock = {
-     Enabled = false,
-     AimPart = "HumanoidRootPart",
+     Enabled = true,
+     AimPart = "Head",
      AutoPrediction = true,
      Prediction = {
-      Horizontal = 0.1355465654243623478953465298374562439526378542365936529765295635279345975623798465,
-      Vertical = 0.13657629348756397482579853798567389425634897563459824376534782563485265347582643789563495372685365,
+      Horizontal = 0.1336784,
+      Vertical = 0.1336784,
      },
-     Smoothness = 0.516783957634534785658736537854785620843948642938765234856395632497684924627823946283746278364387429676,
+     Smoothness = 0.189,
      Shake = {
-      X = 0.92542345897836589587436539576589365,
-      Y = 0.4313287394698534653975645,
+      X = 0,
+      Y = 0,
      },
     },
  }
  
 
- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/971e07c6d49e96e1387cba82cad22179.lua"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/24krio/10xbetter/main/Main"))()
