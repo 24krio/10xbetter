@@ -44,7 +44,7 @@ getgenv().silent = {
      Wall = true,
     },
     Camlock = {
-     Enabled = true,
+     Enabled = false,
      AimPart = "Head",
      AutoPrediction = true,
      Prediction = {
