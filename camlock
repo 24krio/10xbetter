@@ -29,7 +29,7 @@ getgenv().silent = {
     },
     FOV = {
      Enabled = true,
-     Size = 16,
+     Size = 15,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.1,
@@ -51,7 +51,7 @@ getgenv().silent = {
       Horizontal = 0.138249,
       Vertical = 0.138249,
      },
-     Smoothness = 0.133,
+     Smoothness = 0.1683,
      Shake = {
       X = 0,
       Y = 0,
