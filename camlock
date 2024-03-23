@@ -6,7 +6,7 @@ getgenv().silent = {
      Prediction = 0.1214915413,
      AutoPrediction = {
       Enabled = true,
-      Type = "Custom", -- Normal, Custom, Math
+      Type = "Math", -- Normal, Custom, Math
        ping20_30 = 0.12588,
        ping30_40 = 0.11911,
        ping40_50 = 0.12471,
@@ -28,8 +28,8 @@ getgenv().silent = {
      },
     },
     FOV = {
-     Enabled = true,
-     Size = 13,
+     Enabled = false,
+     Size = 15,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.1,
@@ -48,10 +48,10 @@ getgenv().silent = {
      AimPart = "Head",
      AutoPrediction = true,
      Prediction = {
-      Horizontal = 0.139,
-      Vertical = 0.139,
+      Horizontal = 0.1336784,
+      Vertical = 0.1336784,
      },
-     Smoothness = 0.233,
+     Smoothness = 0.189,
      Shake = {
       X = 0,
       Y = 0,
