@@ -29,10 +29,10 @@ getgenv().silent = {
     },
     FOV = {
      Enabled = true,
-     Size = 33,
+     Size = 14,
      Filled = false,
-     Thickness = 0.8,
-     Transparency = 0,
+     Thickness = 0.01,
+     Transparency = 0.1,
      Color = Color3.fromRGB(255,255,255),
     },
     Checks = {
