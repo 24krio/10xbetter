@@ -51,7 +51,7 @@ getgenv().silent = {
       Horizontal = 0.1294,
       Vertical = 0.1294,
      },
-     Smoothness = 0.356,
+     Smoothness = 0.856,
      Shake = {
       X = 0,
       Y = 0,
