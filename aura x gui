@@ -1,66 +1,71 @@
-script_key="aMPrDfskcEOcMWHxLquJegHVpfNUsdxe";
+script_key="tvKgzgqqcctlKeJfVFKdUebciFUHdngJ";
 
 getgenv().guiTru = true - put this to false if u want the silent aim instead
 
 getgenv().silent = {
-    Settings = {
+   Settings = {
+    Enabled = true,
+    AimPart = "UpperTorso",
+    Prediction = 0.152848,
+    AutoPrediction = {
      Enabled = true,
-     AimPart = "UpperTorso",
-     Prediction = 0.1294,
-     AutoPrediction = {
-      Enabled = true,
-      Type = "Math", -- Normal, Custom, Math
-       ping20_30 = 0.11923,
-       ping30_40 = 0.122738,
-       ping40_50 = 0.12313232,
-       ping50_60 = 0.108856,
-       ping60_70 = 0.119165,
-       ping70_80 = 0.129474,
-       ping80_90 = 0.139784,
-       ping90_100 = 0.150093,
-       ping100_110 = 0.160402,
-       ping110_120 = 0.170711,
-       ping120_130 = 00.181021,
-       ping130_140 = 0.14132454537,
-       ping140_150 = 0.1425543763,
-       ping150_160 = 0.14334396545614,
-       ping160_170 = 0.1446576983263,
-       ping170_180 = 0.14597897745372,
-       ping180_190 = 0.147987915345448,
-       ping190_200 = 0.15224234865,
-     },
+     Type = "Math", -- Normal, Custom, Math
+      ping20_30 = 0.12588,
+      ping30_40 = 0.11911,
+      ping40_50 = 0.12471,
+      ping50_60 = 0.13766,
+      ping60_70 = 0.13731,
+      ping70_80 = 0.13951,
+      ping80_90 = 0.14181,
+      ping90_100 = 0.148,
+      ping100_110 = 0.156,
+      ping110_120 = 0.1567,
+      ping120_130 = 0.1601,
+      ping130_140 = 0.1637,
+      ping140_150 = 0.173,
+      ping150_160 = 0.1714,
+      ping160_170 = 0.1863,
+      ping170_180 = 0.1872,
+      ping180_190 = 0.1848,
+      ping190_200 = 0.1865,
     },
-    FOV = {
-     Enabled = true,
-     Size = 10,
-     Filled = false,
-     Thickness = 0.01,
-     Transparency = 0.1,
-     Color = Color3.fromRGB(255,255,255),
-    },
-    Checks = {
-     KO = true, --- removed for now
-     Health = { --unlocks if below the set value.
-      Enabled = true,
-      Value = 5,
-     },
-     Wall = true,
-    },
-    Camlock = {
+   },
+   FOV = {
+    Enabled = true,
+    Size = 33,
+    Filled = false,
+    Thickness = 0.66,
+    Transparency = 0.9,
+    Color = Color3.fromRGB(255,255,255),
+   },
+   Checks = {
+    KO = false, --- removed for now
+    Health = { --unlocks if below the set value.
      Enabled = false,
-     AimPart = "Head",
-     AutoPrediction = true,
-     Prediction = {
-      Horizontal = 0.1336784,
-      Vertical = 0.1336784,
-     },
-     Smoothness = 0.189,
-     Shake = {
-      X = 0,
-      Y = 0,
-     },
+     Value = 5,
     },
- }
- 
+    Wall = true,
+   },
+   Camlock = {
+    Enabled = false,
+    AimPart = "HumanoidRootPart",
+    AutoPrediction = false,
+    Prediction = {
+     Horizontal = 0.152848,
+     Vertical = 0.135,
+    },
+    Smoothness = 0.1,
+    Shake = {
+     X = 0,
+     Y = 0,
+    },
+   },
+}
 
- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/44bb088471e9f1cb66c91b47b9d3b620.lua"))()
+
+
+
+
+
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/44bb088471e9f1cb66c91b47b9d3b620.lua"))()
