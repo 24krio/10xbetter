@@ -1,4 +1,7 @@
 script_key="tvKgzgqqcctlKeJfVFKdUebciFUHdngJ";
+
+getgenv().guiTru = false - put this to false if u want the silent aim instead
+
 getgenv().silent = {
     Settings = {
      Enabled = true,
@@ -60,4 +63,4 @@ getgenv().silent = {
  }
  
 
- loadstring(game:HttpGet("https://raw.githubusercontent.com/24krio/10xbetter/main/Main"))()
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/44bb088471e9f1cb66c91b47b9d3b620.lua"))()
