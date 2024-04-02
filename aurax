@@ -2,7 +2,7 @@ script_key="tvKgzgqqcctlKeJfVFKdUebciFUHdngJ";
 getgenv().silent = {
     Settings = {
      Enabled = true,
-     AimPart = "HumanoidRootPart",
+     AimPart = "UpperTorso",
      Prediction = 0.1294,
      AutoPrediction = {
       Enabled = true,
@@ -29,7 +29,7 @@ getgenv().silent = {
     },
     FOV = {
      Enabled = true,
-     Size = 14,
+     Size = 6,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.1,
