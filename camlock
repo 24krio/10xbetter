@@ -1,8 +1,12 @@
 script_key="tvKgzgqqcctlKeJfVFKdUebciFUHdngJ";
+
+
+getgenv().UseGui = false -- put this to false if u want the silent aim instead
+
 getgenv().silent = {
     Settings = {
      Enabled = true,
-     AimPart = "Head",
+     AimPart = "UpperTorso",
      Prediction = 0.1294,
      AutoPrediction = {
       Enabled = true,
@@ -10,14 +14,14 @@ getgenv().silent = {
        ping20_30 = 0.11923,
        ping30_40 = 0.122738,
        ping40_50 = 0.12313232,
-       ping50_60 = 0.1332241241231,
-       ping60_70 = 0.1344,
-       ping70_80 = 0.142,
-       ping80_90 = 0.165,
-       ping90_100 = 0.13573,
-       ping100_110 = 0.1533,
-       ping110_120 = 0.13667,
-       ping120_130 = 0.136380,
+       ping50_60 = 0.108856,
+       ping60_70 = 0.119165,
+       ping70_80 = 0.129474,
+       ping80_90 = 0.139784,
+       ping90_100 = 0.150093,
+       ping100_110 = 0.160402,
+       ping110_120 = 0.170711,
+       ping120_130 = 00.181021,
        ping130_140 = 0.14132454537,
        ping140_150 = 0.1425543763,
        ping150_160 = 0.14334396545614,
@@ -60,4 +64,4 @@ getgenv().silent = {
  }
  
 
- loadstring(game:HttpGet("https://raw.githubusercontent.com/24krio/10xbetter/main/Main"))()
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/44bb088471e9f1cb66c91b47b9d3b620.lua"))()
