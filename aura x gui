@@ -1,6 +1,7 @@
 script_key="tvKgzgqqcctlKeJfVFKdUebciFUHdngJ";
 
-getgenv().guiTru = true - put this to false if u want the silent aim instead
+
+getgenv().UseGui = true -- put this to false if u want the silent aim instead
 
 getgenv().silent = {
    Settings = {
