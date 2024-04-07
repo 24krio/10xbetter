@@ -49,7 +49,7 @@ getgenv().silent = {
     },
     Camlock = {
      Enabled = true,
-     AimPart = "UpperTorso",
+     AimPart = "HumanoidRootPart",
      AutoPrediction = true,
      Prediction = {
       Horizontal = 0.1294,
