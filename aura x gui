@@ -6,7 +6,7 @@ getgenv().UseGui = true -- put this to false if u want the silent aim instead
 getgenv().silent = {
    Settings = {
     Enabled = true,
-    AimPart = "HumanoidRootPart",
+    AimPart = "Head",
     Prediction = 0.152848,
     AutoPrediction = {
      Enabled = true,
@@ -49,7 +49,7 @@ getgenv().silent = {
    },
    Camlock = {
     Enabled = false,
-    AimPart = "HumanoidRootPart",
+    AimPart = "Head",
     AutoPrediction = false,
     Prediction = {
      Horizontal = 0.152848,
