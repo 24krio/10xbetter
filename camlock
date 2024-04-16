@@ -32,8 +32,8 @@ getgenv().silent = {
      },
     },
     FOV = {
-     Enabled = false,
-     Size = 20,
+     Enabled = true,
+     Size = 35,
      Filled = false,
      Thickness = 0.01,
      Transparency = 0.8,
@@ -49,7 +49,7 @@ getgenv().silent = {
     },
     Camlock = {
      Enabled = true,
-     AimPart = "HumanoidRootPart",
+     AimPart = "UpperTorso",
      AutoPrediction = true,
      Prediction = {
       Horizontal = 0.1294,
